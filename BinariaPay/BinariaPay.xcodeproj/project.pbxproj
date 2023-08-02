@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84DCF47F2A584126004CABC9 /* BinariaPayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF47E2A584126004CABC9 /* BinariaPayApp.swift */; };
+		84DCF4812A584126004CABC9 /* SendTransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4802A584126004CABC9 /* SendTransactionsView.swift */; };
+		84DCF4832A584128004CABC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DCF4822A584128004CABC9 /* Assets.xcassets */; };
+		84DCF4862A584128004CABC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DCF4852A584128004CABC9 /* Preview Assets.xcassets */; };
+		84DCF4902A584128004CABC9 /* BinariaPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF48F2A584128004CABC9 /* BinariaPayTests.swift */; };
+		84DCF49A2A584128004CABC9 /* BinariaPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4992A584128004CABC9 /* BinariaPayUITests.swift */; };
+		84DCF49C2A584128004CABC9 /* BinariaPayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF49B2A584128004CABC9 /* BinariaPayUITestsLaunchTests.swift */; };
+		84DCF4AA2A5842C8004CABC9 /* SendTransactionsView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4A92A5842C8004CABC9 /* SendTransactionsView+ViewModel.swift */; };
+		84DCF4AE2A5EA91B004CABC9 /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4AD2A5EA91B004CABC9 /* FormTextField.swift */; };
+		84DCF4B02A5EA95E004CABC9 /* FormTextField+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4AF2A5EA95E004CABC9 /* FormTextField+ViewModel.swift */; };
+		84DCF4B42A5EADA7004CABC9 /* FormDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4B32A5EADA7004CABC9 /* FormDropDownView.swift */; };
+		84DCF4B62A5EAE0F004CABC9 /* FormDropDownView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4B52A5EAE0F004CABC9 /* FormDropDownView+ViewModel.swift */; };
+		84DCF4B82A5EB098004CABC9 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4B72A5EB098004CABC9 /* GlobalConstants.swift */; };
+		84DCF4BB2A5EB13A004CABC9 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4BA2A5EB13A004CABC9 /* Country.swift */; };
+		84DCF4BD2A5EB462004CABC9 /* CurrencyAbbreviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4BC2A5EB462004CABC9 /* CurrencyAbbreviation.swift */; };
+		84DCF4BF2A5FE294004CABC9 /* FormButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4BE2A5FE294004CABC9 /* FormButton.swift */; };
+		84DCF4C12A5FE2BA004CABC9 /* FormButton+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4C02A5FE2BA004CABC9 /* FormButton+ViewModel.swift */; };
+		84DCF4C42A5FE475004CABC9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DCF4C32A5FE475004CABC9 /* Colors.xcassets */; };
+		84DCF4C72A5FE51B004CABC9 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4C62A5FE51B004CABC9 /* UIColor+Extensions.swift */; };
+		84DCF4C92A5FE630004CABC9 /* BPColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4C82A5FE630004CABC9 /* BPColors.swift */; };
+		84DCF4CC2A5FF8C3004CABC9 /* ExchangeRatesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4CB2A5FF8C3004CABC9 /* ExchangeRatesAPI.swift */; };
+		84DCF4CE2A608FD8004CABC9 /* ExchangeRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4CD2A608FD8004CABC9 /* ExchangeRates.swift */; };
+		84DCF4D02A60993F004CABC9 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4CF2A60993F004CABC9 /* String+Validation.swift */; };
+		84DCF4D22A616B54004CABC9 /* TransactionSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF4D12A616B54004CABC9 /* TransactionSuccessView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84DCF48C2A584128004CABC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DCF4732A584126004CABC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DCF47A2A584126004CABC9;
+			remoteInfo = BinariaPay;
+		};
+		84DCF4962A584128004CABC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DCF4732A584126004CABC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DCF47A2A584126004CABC9;
+			remoteInfo = BinariaPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84DCF47B2A584126004CABC9 /* BinariaPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinariaPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DCF47E2A584126004CABC9 /* BinariaPayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinariaPayApp.swift; sourceTree = "<group>"; };
+		84DCF4802A584126004CABC9 /* SendTransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendTransactionsView.swift; sourceTree = "<group>"; };
+		84DCF4822A584128004CABC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DCF4852A584128004CABC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84DCF48B2A584128004CABC9 /* BinariaPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinariaPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DCF48F2A584128004CABC9 /* BinariaPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinariaPayTests.swift; sourceTree = "<group>"; };
+		84DCF4952A584128004CABC9 /* BinariaPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinariaPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DCF4992A584128004CABC9 /* BinariaPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinariaPayUITests.swift; sourceTree = "<group>"; };
+		84DCF49B2A584128004CABC9 /* BinariaPayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinariaPayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84DCF4A92A5842C8004CABC9 /* SendTransactionsView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SendTransactionsView+ViewModel.swift"; sourceTree = "<group>"; };
+		84DCF4AD2A5EA91B004CABC9 /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
+		84DCF4AF2A5EA95E004CABC9 /* FormTextField+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FormTextField+ViewModel.swift"; sourceTree = "<group>"; };
+		84DCF4B32A5EADA7004CABC9 /* FormDropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDropDownView.swift; sourceTree = "<group>"; };
+		84DCF4B52A5EAE0F004CABC9 /* FormDropDownView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FormDropDownView+ViewModel.swift"; sourceTree = "<group>"; };
+		84DCF4B72A5EB098004CABC9 /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		84DCF4BA2A5EB13A004CABC9 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		84DCF4BC2A5EB462004CABC9 /* CurrencyAbbreviation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyAbbreviation.swift; sourceTree = "<group>"; };
+		84DCF4BE2A5FE294004CABC9 /* FormButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormButton.swift; sourceTree = "<group>"; };
+		84DCF4C02A5FE2BA004CABC9 /* FormButton+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FormButton+ViewModel.swift"; sourceTree = "<group>"; };
+		84DCF4C32A5FE475004CABC9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		84DCF4C62A5FE51B004CABC9 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		84DCF4C82A5FE630004CABC9 /* BPColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPColors.swift; sourceTree = "<group>"; };
+		84DCF4CB2A5FF8C3004CABC9 /* ExchangeRatesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesAPI.swift; sourceTree = "<group>"; };
+		84DCF4CD2A608FD8004CABC9 /* ExchangeRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRates.swift; sourceTree = "<group>"; };
+		84DCF4CF2A60993F004CABC9 /* String+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
+		84DCF4D12A616B54004CABC9 /* TransactionSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionSuccessView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DCF4782A584126004CABC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DCF4882A584128004CABC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DCF4922A584128004CABC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DCF4722A584126004CABC9 = {
+			isa = PBXGroup;
+			children = (
+				84DCF47D2A584126004CABC9 /* BinariaPay */,
+				84DCF48E2A584128004CABC9 /* BinariaPayTests */,
+				84DCF4982A584128004CABC9 /* BinariaPayUITests */,
+				84DCF47C2A584126004CABC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84DCF47C2A584126004CABC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF47B2A584126004CABC9 /* BinariaPay.app */,
+				84DCF48B2A584128004CABC9 /* BinariaPayTests.xctest */,
+				84DCF4952A584128004CABC9 /* BinariaPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DCF47D2A584126004CABC9 /* BinariaPay */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF4A82A58429F004CABC9 /* Views */,
+				84DCF4CA2A5FF7BD004CABC9 /* Networking */,
+				84DCF4AB2A584474004CABC9 /* Shared */,
+				84DCF47E2A584126004CABC9 /* BinariaPayApp.swift */,
+				84DCF4C22A5FE44F004CABC9 /* Resource */,
+				84DCF4842A584128004CABC9 /* Preview Content */,
+			);
+			path = BinariaPay;
+			sourceTree = "<group>";
+		};
+		84DCF4842A584128004CABC9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF4852A584128004CABC9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84DCF48E2A584128004CABC9 /* BinariaPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF48F2A584128004CABC9 /* BinariaPayTests.swift */,
+			);
+			path = BinariaPayTests;
+			sourceTree = "<group>";
+		};
+		84DCF4982A584128004CABC9 /* BinariaPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF4992A584128004CABC9 /* BinariaPayUITests.swift */,
+				84DCF49B2A584128004CABC9 /* BinariaPayUITestsLaunchTests.swift */,
+			);
+			path = BinariaPayUITests;
+			sourceTree = "<group>";
+		};
+		84DCF4A82A58429F004CABC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF4802A584126004CABC9 /* SendTransactionsView.swift */,
+				84DCF4A92A5842C8004CABC9 /* SendTransactionsView+ViewModel.swift */,
+				84DCF4D12A616B54004CABC9 /* TransactionSuccessView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84DCF4AB2A584474004CABC9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF4C52A5FE4F1004CABC9 /* Extension */,
+				84DCF4B92A5EB11F004CABC9 /* Constants */,
+				84DCF4AC2A584480004CABC9 /* UIComponents */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		84DCF4AC2A584480004CABC9 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF4AD2A5EA91B004CABC9 /* FormTextField.swift */,
+				84DCF4AF2A5EA95E004CABC9 /* FormTextField+ViewModel.swift */,
+				84DCF4B32A5EADA7004CABC9 /* FormDropDownView.swift */,
+				84DCF4B52A5EAE0F004CABC9 /* FormDropDownView+ViewModel.swift */,
+				84DCF4BE2A5FE294004CABC9 /* FormButton.swift */,
+				84DCF4C02A5FE2BA004CABC9 /* FormButton+ViewModel.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		84DCF4B92A5EB11F004CABC9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF4B72A5EB098004CABC9 /* GlobalConstants.swift */,
+				84DCF4BA2A5EB13A004CABC9 /* Country.swift */,
+				84DCF4BC2A5EB462004CABC9 /* CurrencyAbbreviation.swift */,
+				84DCF4C82A5FE630004CABC9 /* BPColors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		84DCF4C22A5FE44F004CABC9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF4822A584128004CABC9 /* Assets.xcassets */,
+				84DCF4C32A5FE475004CABC9 /* Colors.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		84DCF4C52A5FE4F1004CABC9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF4C62A5FE51B004CABC9 /* UIColor+Extensions.swift */,
+				84DCF4CF2A60993F004CABC9 /* String+Validation.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		84DCF4CA2A5FF7BD004CABC9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF4CB2A5FF8C3004CABC9 /* ExchangeRatesAPI.swift */,
+				84DCF4CD2A608FD8004CABC9 /* ExchangeRates.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DCF47A2A584126004CABC9 /* BinariaPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DCF49F2A584128004CABC9 /* Build configuration list for PBXNativeTarget "BinariaPay" */;
+			buildPhases = (
+				84DCF4772A584126004CABC9 /* Sources */,
+				84DCF4782A584126004CABC9 /* Frameworks */,
+				84DCF4792A584126004CABC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BinariaPay;
+			productName = BinariaPay;
+			productReference = 84DCF47B2A584126004CABC9 /* BinariaPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84DCF48A2A584128004CABC9 /* BinariaPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DCF4A22A584128004CABC9 /* Build configuration list for PBXNativeTarget "BinariaPayTests" */;
+			buildPhases = (
+				84DCF4872A584128004CABC9 /* Sources */,
+				84DCF4882A584128004CABC9 /* Frameworks */,
+				84DCF4892A584128004CABC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DCF48D2A584128004CABC9 /* PBXTargetDependency */,
+			);
+			name = BinariaPayTests;
+			productName = BinariaPayTests;
+			productReference = 84DCF48B2A584128004CABC9 /* BinariaPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84DCF4942A584128004CABC9 /* BinariaPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DCF4A52A584128004CABC9 /* Build configuration list for PBXNativeTarget "BinariaPayUITests" */;
+			buildPhases = (
+				84DCF4912A584128004CABC9 /* Sources */,
+				84DCF4922A584128004CABC9 /* Frameworks */,
+				84DCF4932A584128004CABC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DCF4972A584128004CABC9 /* PBXTargetDependency */,
+			);
+			name = BinariaPayUITests;
+			productName = BinariaPayUITests;
+			productReference = 84DCF4952A584128004CABC9 /* BinariaPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DCF4732A584126004CABC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					84DCF47A2A584126004CABC9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					84DCF48A2A584128004CABC9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 84DCF47A2A584126004CABC9;
+					};
+					84DCF4942A584128004CABC9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 84DCF47A2A584126004CABC9;
+					};
+				};
+			};
+			buildConfigurationList = 84DCF4762A584126004CABC9 /* Build configuration list for PBXProject "BinariaPay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DCF4722A584126004CABC9;
+			productRefGroup = 84DCF47C2A584126004CABC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DCF47A2A584126004CABC9 /* BinariaPay */,
+				84DCF48A2A584128004CABC9 /* BinariaPayTests */,
+				84DCF4942A584128004CABC9 /* BinariaPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DCF4792A584126004CABC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DCF4C42A5FE475004CABC9 /* Colors.xcassets in Resources */,
+				84DCF4862A584128004CABC9 /* Preview Assets.xcassets in Resources */,
+				84DCF4832A584128004CABC9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DCF4892A584128004CABC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DCF4932A584128004CABC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DCF4772A584126004CABC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DCF4CE2A608FD8004CABC9 /* ExchangeRates.swift in Sources */,
+				84DCF4812A584126004CABC9 /* SendTransactionsView.swift in Sources */,
+				84DCF4D02A60993F004CABC9 /* String+Validation.swift in Sources */,
+				84DCF4BB2A5EB13A004CABC9 /* Country.swift in Sources */,
+				84DCF4BD2A5EB462004CABC9 /* CurrencyAbbreviation.swift in Sources */,
+				84DCF4CC2A5FF8C3004CABC9 /* ExchangeRatesAPI.swift in Sources */,
+				84DCF4C72A5FE51B004CABC9 /* UIColor+Extensions.swift in Sources */,
+				84DCF4B02A5EA95E004CABC9 /* FormTextField+ViewModel.swift in Sources */,
+				84DCF47F2A584126004CABC9 /* BinariaPayApp.swift in Sources */,
+				84DCF4BF2A5FE294004CABC9 /* FormButton.swift in Sources */,
+				84DCF4C92A5FE630004CABC9 /* BPColors.swift in Sources */,
+				84DCF4B62A5EAE0F004CABC9 /* FormDropDownView+ViewModel.swift in Sources */,
+				84DCF4AA2A5842C8004CABC9 /* SendTransactionsView+ViewModel.swift in Sources */,
+				84DCF4C12A5FE2BA004CABC9 /* FormButton+ViewModel.swift in Sources */,
+				84DCF4AE2A5EA91B004CABC9 /* FormTextField.swift in Sources */,
+				84DCF4B82A5EB098004CABC9 /* GlobalConstants.swift in Sources */,
+				84DCF4B42A5EADA7004CABC9 /* FormDropDownView.swift in Sources */,
+				84DCF4D22A616B54004CABC9 /* TransactionSuccessView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DCF4872A584128004CABC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DCF4902A584128004CABC9 /* BinariaPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DCF4912A584128004CABC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DCF49C2A584128004CABC9 /* BinariaPayUITestsLaunchTests.swift in Sources */,
+				84DCF49A2A584128004CABC9 /* BinariaPayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84DCF48D2A584128004CABC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DCF47A2A584126004CABC9 /* BinariaPay */;
+			targetProxy = 84DCF48C2A584128004CABC9 /* PBXContainerItemProxy */;
+		};
+		84DCF4972A584128004CABC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DCF47A2A584126004CABC9 /* BinariaPay */;
+			targetProxy = 84DCF4962A584128004CABC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84DCF49D2A584128004CABC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84DCF49E2A584128004CABC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DCF4A02A584128004CABC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BinariaPay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajones.BinariaPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DCF4A12A584128004CABC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BinariaPay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajones.BinariaPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84DCF4A32A584128004CABC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajones.BinariaPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinariaPay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BinariaPay";
+			};
+			name = Debug;
+		};
+		84DCF4A42A584128004CABC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajones.BinariaPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinariaPay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BinariaPay";
+			};
+			name = Release;
+		};
+		84DCF4A62A584128004CABC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajones.BinariaPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BinariaPay;
+			};
+			name = Debug;
+		};
+		84DCF4A72A584128004CABC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajones.BinariaPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BinariaPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DCF4762A584126004CABC9 /* Build configuration list for PBXProject "BinariaPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DCF49D2A584128004CABC9 /* Debug */,
+				84DCF49E2A584128004CABC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DCF49F2A584128004CABC9 /* Build configuration list for PBXNativeTarget "BinariaPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DCF4A02A584128004CABC9 /* Debug */,
+				84DCF4A12A584128004CABC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DCF4A22A584128004CABC9 /* Build configuration list for PBXNativeTarget "BinariaPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DCF4A32A584128004CABC9 /* Debug */,
+				84DCF4A42A584128004CABC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DCF4A52A584128004CABC9 /* Build configuration list for PBXNativeTarget "BinariaPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DCF4A62A584128004CABC9 /* Debug */,
+				84DCF4A72A584128004CABC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DCF4732A584126004CABC9 /* Project object */;
+}
